@@ -1,0 +1,172 @@
+"""
+-------------------------------------------------------
+Testing:
+-------------------------------------------------------
+Author:  Your Name
+ID:      Your ID
+Email:   your email@mylaurier.ca
+__updated__ = "2024-01-19"
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+
+Test 1:
+Name:       grape
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   61
+Name:       apple
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   77
+
+Test 2:
+Name:       Elk
+Origin:     Canadian
+Vegetarian: False
+Calories:   250
+Name:       Maple cookies
+Origin:     Canadian
+Vegetarian: True
+Calories:   77
+Name:       banana
+Origin:     Canadian
+Vegetarian: True
+Calories:   60
+
+
+Test 3:
+Name:        Egg Fried Rice
+Origin:     Canadian
+Vegetarian: True
+Calories:   250
+Name:       wonton
+Origin:     Canadian
+Vegetarian: False
+Calories:   77
+Name:       Dumplings
+Origin:     Canadian
+Vegetarian: False
+Calories:   60
+
+-------------------------------------------------------
+
+-------------------------------------------------------
+t02
+
+
+Test 1:
+f = Food("grape", 3, True, 1)
+f2 = Food("apple", 3, True, 7)
+f3 = Food("banana", 1, True, 6)
+
+output: 4
+Test 2:
+f = Food("grape", 3, True, 10)
+f2 = Food("apple", 3, True, 70)
+f3 = Food("banana", 1, True, 0)
+
+output:26
+
+Test 3:
+f = Food("grape", 3, True, 10)
+f2 = Food("apple", 3, True, 700)
+f3 = Food("banana", 1, True, 1000)
+
+output: 570
+
+-------------------------------------------------------
+
+-------------------------------------------------------
+t03
+
+Test 1:
+f = Food("grape", 3, True, 1)
+f2 = Food("apple", 3, True, 7)
+f3 = Food("banana", 3, True, 6)
+
+output: 4
+Test 2:
+f = Food("grape", 2, True, 10)
+f2 = Food("apple", 2, True, 7)
+f3 = Food("banana", 2, True, 6)
+
+output: 7
+
+
+
+Test 3:
+f = Food("grape", 1, True, 120)
+f2 = Food("apple", 1, True, 7)
+f3 = Food("banana", 1, True, 6)
+
+output: 44
+
+-------------------------------------------------------
+
+-------------------------------------------------------
+t04 
+
+Test 1:
+
+Food                                Origin       Vegetarian Calories
+----------------------------------- ------------ ---------- --------
+apple                               Ethiopian    True       7
+banana                              Chinese      False      6
+grape                               Ethiopian    True       1
+
+
+Test 2:
+Food                                Origin       Vegetarian Calories
+----------------------------------- ------------ ---------- --------
+apple                               Ethiopian    True       7
+banana                              Chinese      False      6
+Chipotle                            Ethiopian    True       1000
+
+Test 3:
+Food                                Origin       Vegetarian Calories
+----------------------------------- ------------ ---------- --------
+apple                               Chinese      True       7
+banana                              Chinese      True       6
+carrot                              Ethiopian    True       3
+grape                               Chinese      True       120
+orange                              Indian       False      5
+
+-------------------------------------------------------
+
+-------------------------------------------------------
+t05
+
+Test 1:
+Name:       apple
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   7
+Name:       spinach
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   5
+
+
+Test 2:
+Name:       grapes
+Origin:     Chinese
+Vegetarian: True
+Calories:   15
+Name:       blueberry
+Origin:     Chinese
+Vegetarian: True
+Calories:   8
+
+Test 3:
+Name:       Dumpling
+Origin:     Chinese
+Vegetarian: False
+Calories:   6
+
+
+-------------------------------------------------------
+
+-------------------------------------------------------
+-------------------------------------------------------
