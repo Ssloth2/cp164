@@ -1,0 +1,482 @@
+"""
+-------------------------------------------------------
+Testing:
+-------------------------------------------------------
+
+-------------------------------------------------------
+Food class definition.
+-------------------------------------------------------
+Author:  Syed Shah
+ID:      169071402
+Email:   shah1402@mylaurier.ca
+__updated__ = "2024-01-26"
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+
+Test 1:
+Name:       NAHHH
+Origin:     Japanese
+Vegetarian: None
+Calories:   250
+
+
+Test 2:
+Name:       dfs
+Origin:     Indian
+Vegetarian: None
+Calories:   250
+
+Test 3:
+Name:       dfs
+Origin:     Indian
+Vegetarian: True
+Calories:   250
+
+-------------------------------------------------------
+
+-------------------------------------------------------
+t02
+It said not to directly test _linear_search_
+
+
+-------------------------------------------------------
+
+-------------------------------------------------------
+t03
+Test 1:
+Appending elements to the list...
+List after appends: [10, 20, 30]
+
+Inserting an element at index 1...
+List after insert: [10, 15, 20, 30]
+
+Removing the element '20'...
+Removed value: 20
+List after removal: [10, 15, 30]
+
+Attempting to remove a non-existent element '40'...
+Result of removal: None
+List after failed removal attempt: [10, 15, 30]
+
+
+
+-------------------------------------------------------
+
+-------------------------------------------------------
+t04 
+Test 1:
+The index of the first occurrence of '20': 1
+The value found for '30': 30
+Is '20' in the list? True
+The count of '10' in the list: 2
+The maximum value in the list: 30
+The minimum value in the list: 10
+
+-------------------------------------------------------
+
+-------------------------------------------------------
+t05
+Test 1:
+The second item in the list: 20
+Setting the second item in the list to 25...
+Trying to access index out of range:
+Error: Invalid index value
+Trying to set index out of range:
+Error: Invalid index value
+
+
+
+-------------------------------------------------------
+
+-------------------------------------------------------
+t06:
+List after array_to_list:
+1 2 3 4 5 
+Python list after list_to_array: [1, 2, 3, 4, 5]
+List is empty after transfer: False
+
+
+
+-------------------------------------------------------
+-------------------------------------------------------
+t07:
+
+New list created. Is empty: False (Expected: True)
+Appended Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135 to list. New list: <List_array.List object at 0x0000023A73203E50>
+Appended Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490 to list. New list: <List_array.List object at 0x0000023A73203E50>
+Appended Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272 to list. New list: <List_array.List object at 0x0000023A73203E50>
+Appended Name:       Vegetable Alicha
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   138 to list. New list: <List_array.List object at 0x0000023A73203E50>
+Appended Name:       Spanakopita
+Origin:     Greek
+Vegetarian: True
+Calories:   260 to list. New list: <List_array.List object at 0x0000023A73203E50>
+Appended Name:       Chirashi Don
+Origin:     Japanese
+Vegetarian: False
+Calories:   600 to list. New list: <List_array.List object at 0x0000023A73203E50>
+Appended Name:       Canuck Burger
+Origin:     Canadian
+Vegetarian: False
+Calories:   7500 to list. New list: <List_array.List object at 0x0000023A73203E50>
+Appended Name:       Turducken
+Origin:     American
+Vegetarian: False
+Calories:   12240 to list. New list: <List_array.List object at 0x0000023A73203E50>
+Appended Name:       Shark Fin Soup
+Origin:     Chinese
+Vegetarian: False
+Calories:   46 to list. New list: <List_array.List object at 0x0000023A73203E50>
+Appended Name:       Chamuco
+Origin:     Mexican
+Vegetarian: True
+Calories:   150 to list. New list: <List_array.List object at 0x0000023A73203E50>
+Appended Name:       Natto
+Origin:     Japanese
+Vegetarian: True
+Calories:   212 to list. New list: <List_array.List object at 0x0000023A73203E50>
+Appended Name:       Canada Goose Chili
+Origin:     Canadian
+Vegetarian: False
+Calories:   199 to list. New list: <List_array.List object at 0x0000023A73203E50>
+Appended Name:       Diet Free-Range Gluten-free Water
+Origin:     American
+Vegetarian: True
+Calories:   0 to list. New list: <List_array.List object at 0x0000023A73203E50>
+Appended Name:       Kung Pao Chicken
+Origin:     Chinese
+Vegetarian: False
+Calories:   229 to list. New list: <List_array.List object at 0x0000023A73203E50>
+Appended Name:       General Tao Chicken
+Origin:     Chinese
+Vegetarian: False
+Calories:   850 to list. New list: <List_array.List object at 0x0000023A73203E50>
+Appended Name:       Spicy Vegetable Moo Shu
+Origin:     Chinese
+Vegetarian: True
+Calories:   140 to list. New list: <List_array.List object at 0x0000023A73203E50>
+Appended Name:       BBQ Pork
+Origin:     Chinese
+Vegetarian: False
+Calories:   920 to list. New list: <List_array.List object at 0x0000023A73203E50>
+Appended Name:       Orange Chicken
+Origin:     Chinese
+Vegetarian: False
+Calories:   800 to list. New list: <List_array.List object at 0x0000023A73203E50>
+Appended Name:       Vegetables with Cashew Nuts
+Origin:     Chinese
+Vegetarian: True
+Calories:   143 to list. New list: <List_array.List object at 0x0000023A73203E50>
+Appended Name:       Lemon Chicken
+Origin:     Chinese
+Vegetarian: False
+Calories:   226 to list. New list: <List_array.List object at 0x0000023A73203E50>
+Appended Name:       Beef with Green Pepper
+Origin:     Chinese
+Vegetarian: False
+Calories:   251 to list. New list: <List_array.List object at 0x0000023A73203E50>
+Appended Name:       Sweet and Sour Pork
+Origin:     Chinese
+Vegetarian: False
+Calories:   231 to list. New list: <List_array.List object at 0x0000023A73203E50>
+Appended Name:       Szechuan Shrimp
+Origin:     Chinese
+Vegetarian: False
+Calories:   516 to list. New list: <List_array.List object at 0x0000023A73203E50>
+Appended Name:       Poutine
+Origin:     Canadian
+Vegetarian: False
+Calories:   710 to list. New list: <List_array.List object at 0x0000023A73203E50>
+Appended Name:       Teppanyaki
+Origin:     Japanese
+Vegetarian: False
+Calories:   200 to list. New list: <List_array.List object at 0x0000023A73203E50>
+Appended Name:       Greek Salad
+Origin:     Greek
+Vegetarian: True
+Calories:   185 to list. New list: <List_array.List object at 0x0000023A73203E50>
+Appended Name:       Fettuccine
+Origin:     Italian
+Vegetarian: False
+Calories:   266 to list. New list: <List_array.List object at 0x0000023A73203E50>
+Appended Name:       Teriyaki
+Origin:     Japanese
+Vegetarian: False
+Calories:   233 to list. New list: <List_array.List object at 0x0000023A73203E50>
+Appended Name:       Shortbread 
+Origin:     Scottish
+Vegetarian: True
+Calories:   502 to list. New list: <List_array.List object at 0x0000023A73203E50>
+Appended Name:       Pavlova
+Origin:     New Zealand
+Vegetarian: True
+Calories:   272 to list. New list: <List_array.List object at 0x0000023A73203E50>
+Appended Name:       Hokey Pokey Ice Cream
+Origin:     New Zealand
+Vegetarian: True
+Calories:   106 to list. New list: <List_array.List object at 0x0000023A73203E50>
+Appended Name:       Fricot
+Origin:     Canadian
+Vegetarian: False
+Calories:   360 to list. New list: <List_array.List object at 0x0000023A73203E50>
+Appended Name:       Chip Butty
+Origin:     English
+Vegetarian: True
+Calories:   956 to list. New list: <List_array.List object at 0x0000023A73203E50>
+Appended Name:       Grilled Salmon
+Origin:     Canadian
+Vegetarian: False
+Calories:   511 to list. New list: <List_array.List object at 0x0000023A73203E50>
+Appended Name:       Ravioli
+Origin:     Italian
+Vegetarian: False
+Calories:   246 to list. New list: <List_array.List object at 0x0000023A73203E50>
+Appended Name:       Crepe
+Origin:     Italian
+Vegetarian: True
+Calories:   186 to list. New list: <List_array.List object at 0x0000023A73203E50>
+Appended Name:       Fried Rice
+Origin:     Chinese
+Vegetarian: False
+Calories:   425 to list. New list: <List_array.List object at 0x0000023A73203E50>
+Appended Name:       Pepperoni Pizza
+Origin:     Italian
+Vegetarian: False
+Calories:   713 to list. New list: <List_array.List object at 0x0000023A73203E50>
+Appended Name:       Chicken Kabob
+Origin:     Indian
+Vegetarian: False
+Calories:   167 to list. New list: <List_array.List object at 0x0000023A73203E50>
+Appended Name:       Panzerotti
+Origin:     Italian
+Vegetarian: False
+Calories:   770 to list. New list: <List_array.List object at 0x0000023A73203E50>
+Appended Name:       Spring Rolls
+Origin:     Chinese
+Vegetarian: True
+Calories:   200 to list. New list: <List_array.List object at 0x0000023A73203E50>
+Appended Name:       Chicken Chow Mein
+Origin:     Chinese
+Vegetarian: False
+Calories:   178 to list. New list: <List_array.List object at 0x0000023A73203E50>
+Appended Name:       Chicken Wings
+Origin:     American
+Vegetarian: False
+Calories:   298 to list. New list: <List_array.List object at 0x0000023A73203E50>
+Removed Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135 from list. Removed: Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490 (Expected: Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135)
+Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+Name:       Moo Goo Guy Pan
+Origin:     Chinese
+Vegetarian: False
+Calories:   272
+Name:       Vegetable Alicha
+Origin:     Ethiopian
+Vegetarian: True
+Calories:   138
+Name:       Spanakopita
+Origin:     Greek
+Vegetarian: True
+Calories:   260
+Name:       Chirashi Don
+Origin:     Japanese
+Vegetarian: False
+Calories:   600
+Name:       Canuck Burger
+Origin:     Canadian
+Vegetarian: False
+Calories:   7500
+Name:       Turducken
+Origin:     American
+Vegetarian: False
+Calories:   12240
+Name:       Shark Fin Soup
+Origin:     Chinese
+Vegetarian: False
+Calories:   46
+Name:       Chamuco
+Origin:     Mexican
+Vegetarian: True
+Calories:   150
+Name:       Natto
+Origin:     Japanese
+Vegetarian: True
+Calories:   212
+Name:       Canada Goose Chili
+Origin:     Canadian
+Vegetarian: False
+Calories:   199
+Name:       Diet Free-Range Gluten-free Water
+Origin:     American
+Vegetarian: True
+Calories:   0
+Name:       Kung Pao Chicken
+Origin:     Chinese
+Vegetarian: False
+Calories:   229
+Name:       General Tao Chicken
+Origin:     Chinese
+Vegetarian: False
+Calories:   850
+Name:       Spicy Vegetable Moo Shu
+Origin:     Chinese
+Vegetarian: True
+Calories:   140
+Name:       BBQ Pork
+Origin:     Chinese
+Vegetarian: False
+Calories:   920
+Name:       Orange Chicken
+Origin:     Chinese
+Vegetarian: False
+Calories:   800
+Name:       Vegetables with Cashew Nuts
+Origin:     Chinese
+Vegetarian: True
+Calories:   143
+Name:       Lemon Chicken
+Origin:     Chinese
+Vegetarian: False
+Calories:   226
+Name:       Beef with Green Pepper
+Origin:     Chinese
+Vegetarian: False
+Calories:   251
+Name:       Sweet and Sour Pork
+Origin:     Chinese
+Vegetarian: False
+Calories:   231
+Name:       Szechuan Shrimp
+Origin:     Chinese
+Vegetarian: False
+Calories:   516
+Name:       Poutine
+Origin:     Canadian
+Vegetarian: False
+Calories:   710
+Name:       Teppanyaki
+Origin:     Japanese
+Vegetarian: False
+Calories:   200
+Name:       Greek Salad
+Origin:     Greek
+Vegetarian: True
+Calories:   185
+Name:       Fettuccine
+Origin:     Italian
+Vegetarian: False
+Calories:   266
+Name:       Teriyaki
+Origin:     Japanese
+Vegetarian: False
+Calories:   233
+Name:       Shortbread 
+Origin:     Scottish
+Vegetarian: True
+Calories:   502
+Name:       Pavlova
+Origin:     New Zealand
+Vegetarian: True
+Calories:   272
+Name:       Hokey Pokey Ice Cream
+Origin:     New Zealand
+Vegetarian: True
+Calories:   106
+Name:       Fricot
+Origin:     Canadian
+Vegetarian: False
+Calories:   360
+Name:       Chip Butty
+Origin:     English
+Vegetarian: True
+Calories:   956
+Name:       Grilled Salmon
+Origin:     Canadian
+Vegetarian: False
+Calories:   511
+Name:       Ravioli
+Origin:     Italian
+Vegetarian: False
+Calories:   246
+Name:       Crepe
+Origin:     Italian
+Vegetarian: True
+Calories:   186
+Name:       Fried Rice
+Origin:     Chinese
+Vegetarian: False
+Calories:   425
+Name:       Pepperoni Pizza
+Origin:     Italian
+Vegetarian: False
+Calories:   713
+Name:       Chicken Kabob
+Origin:     Indian
+Vegetarian: False
+Calories:   167
+Name:       Panzerotti
+Origin:     Italian
+Vegetarian: False
+Calories:   770
+Name:       Spring Rolls
+Origin:     Chinese
+Vegetarian: True
+Calories:   200
+Name:       Chicken Chow Mein
+Origin:     Chinese
+Vegetarian: False
+Calories:   178
+Name:       Chicken Wings
+Origin:     American
+Vegetarian: False
+Calories:   298
+List is empty, max should raise an assertion error.
+List is empty, min should raise an assertion error.
+Find Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135 in list: Found Name:       Chirashi Don
+Origin:     Japanese
+Vegetarian: False
+Calories:   600 (Expected: Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135)
+Index of Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135 in list: 4 (Expected: 1)
+Count of Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135 in list: 20 (Expected: 21)
+Insert test at index 0: <List_array.List object at 0x0000023A73203E50> (Expected: [test, ...rest of list...])
+
+
+
+
+-------------------------------------------------------

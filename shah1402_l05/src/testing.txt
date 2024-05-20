@@ -1,0 +1,145 @@
+"""
+-------------------------------------------------------
+Testing:
+-------------------------------------------------------
+
+-------------------------------------------------------
+Recursion
+-------------------------------------------------------
+Author:  Syed Shah
+ID:      169071402
+Email:   shah1402@mylaurier.ca
+__updated__ = "2024-01-26"
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+
+Test 1:
+Enter x:1
+Enter y:2
+x:1
+y:2
+ans:-5
+
+Test 2;
+Enter x:-1
+Enter y:-2
+x:-1
+y:-2
+ans:1
+
+Test 3:
+Enter x:10
+Enter y:0
+x:10
+y:0
+ans:65
+
+
+-------------------------------------------------------
+
+-------------------------------------------------------
+t02
+
+Test 1:
+Enter a m value:45
+Enter a n value:5
+5
+
+Test 2:
+Enter a m value:72
+Enter a n value:36
+36
+
+Test 3:
+Enter a m value:16
+Enter a n value:9
+1
+
+-------------------------------------------------------
+
+-------------------------------------------------------
+t03
+
+Test 1:
+Enter a string:aeiou
+Number of vowels:5
+
+Test 2;
+Enter a string:Today is Febuary nineth
+Number of vowels:8
+
+Test 3:
+Enter a string:dfsjkksdsjkdfksdfsakdf
+Number of vowels:1
+
+
+-------------------------------------------------------
+
+-------------------------------------------------------
+t04 
+
+Test 1:
+Enter a base:2
+Enter a power:3
+8
+
+Test 2:
+Enter a base:2
+Enter a power:-2
+0.25
+
+Test 3:
+Enter a base:4
+Enter a power:3
+64
+
+
+-------------------------------------------------------
+
+-------------------------------------------------------
+t05
+
+Test 1:
+Enter a string:Racecar
+True
+
+Test 2:
+Enter a string:dkjfkls
+False
+
+Test 3:
+Enter a string:A man, a plan, a canal—Panama
+True
+
+
+
+-------------------------------------------------------
+
+-------------------------------------------------------
+t06:
+
+Test 1:
+How many things are in are bag?:2
+Enter something:1
+Enter something:1
+Bag:['1', '1']
+New Bag: ['1']
+
+
+Test 2:
+How many things are in are bag?:0
+Bag:[]
+New Bag: []
+
+Test 3:
+How many things are in are bag?:4
+Enter something:s
+Enter something:d
+Enter something:e
+Enter something:3
+Bag:['s', 'd', 'e', '3']
+New Bag: ['s', 'd', 'e', '3']
+
+-------------------------------------------------------
