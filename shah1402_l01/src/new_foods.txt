@@ -1,0 +1,6 @@
+Chicken|8|False|120
+Steak|11|False|300
+Maple Syrup|0|True|60
+Roti|2|True|50
+Guava|6|True|30
+
