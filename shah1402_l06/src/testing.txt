@@ -1,0 +1,135 @@
+"""
+-------------------------------------------------------
+Testing: Linked Lists
+-------------------------------------------------------
+
+-------------------------------------------------------
+
+-------------------------------------------------------
+Author:  Syed Shah
+ID:      169071402
+Email:   shah1402@mylaurier.ca
+__updated__ = "2024-01-26"
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+
+Test 1:
+Is the list empty:True
+List Length: 0
+List prepending 1
+1
+
+list appending 2
+1
+2
+
+List inserting 2 at 0
+1
+1
+2
+
+The number of 1's in the list is:2
+
+max val:2
+
+max val:1
+
+Find:None
+
+index:2
+
+contains 23423:False
+
+Peek number:1
+
+removed value: 1
+1
+2
+Get item: 2
+set index1 to 2:
+1
+2
+
+
+
+Test 2:
+Is the list empty:True
+List Length: 0
+List prepending 2
+2
+
+list appending 34
+2
+34
+
+List inserting 34 at 1
+2
+1
+34
+
+The number of 1's in the list is:1
+
+max val:34
+
+max val:1
+
+Find:None
+
+index:2
+
+contains 1:True
+
+Peek number:2
+
+removed value: 1
+2
+34
+Get item: 34
+set index1 to 2:
+2
+2
+
+
+Test 3:
+Is the list empty:True
+List Length: 0
+List prepending 2
+2
+
+list appending 34
+2
+34
+
+List inserting 34 at 1
+2
+1
+34
+
+The number of 1's in the list is:1
+
+max val:34
+
+max val:1
+
+Find:None
+
+index:2
+
+contains 1:True
+
+Peek number:2
+
+removed value: 34
+2
+1
+Get item: 1
+set index0 to 204:
+204
+1
+
+
+-------------------------------------------------------
+
+-------------------------------------------------------
