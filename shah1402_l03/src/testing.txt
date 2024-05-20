@@ -1,0 +1,239 @@
+"""
+-------------------------------------------------------
+Testing:
+-------------------------------------------------------
+
+-------------------------------------------------------
+Food class definition.
+-------------------------------------------------------
+Author:  Syed Shah
+ID:      169071402
+Email:   shah1402@mylaurier.ca
+__updated__ = "2024-01-26"
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+
+Test 1:
+# elements = [1]
+Inserting elements into the queue:
+Inserting 1 into the queue.
+Queue now contains: [1]
+
+
+Test 2:
+# elements = [1,2,3,4]
+Inserting elements into the queue:
+Inserting 1 into the queue.
+Queue now contains: [1]
+Inserting 2 into the queue.
+Queue now contains: [1, 2]
+Inserting 3 into the queue.
+Queue now contains: [1, 2, 3]
+Inserting 4 into the queue.
+Queue now contains: [1, 2, 3, 4]
+
+
+Test 3:
+# elements = []
+Inserting elements into the queue:
+
+
+
+-------------------------------------------------------
+
+-------------------------------------------------------
+t02
+
+Test 1:
+# elements = [1]
+Inserting elements into the queue:
+Queue now contains: [1]
+
+Peeking at the front element: 1
+
+Removing elements from the queue:
+Removed 1 from the queue.
+The queue is now empty.
+Queue now contains: []
+
+
+Test 2:
+# elements = [1,2,3,4]
+Inserting elements into the queue:
+Queue now contains: [1, 2, 3, 4]
+
+Peeking at the front element: 1
+
+Removing elements from the queue:
+Removed 1 from the queue.
+Next element to be removed: 2
+Queue now contains: [2, 3, 4]
+Removed 2 from the queue.
+Next element to be removed: 3
+Queue now contains: [3, 4]
+Removed 3 from the queue.
+Next element to be removed: 4
+Queue now contains: [4]
+Removed 4 from the queue.
+The queue is now empty.
+Queue now contains: []
+
+
+Test 3:
+# elements = []
+Inserting elements into the queue:
+Queue now contains: []
+
+Removing elements from the queue:
+
+
+-------------------------------------------------------
+
+-------------------------------------------------------
+t03
+
+Test 1:
+# source = [10, 20, 30, 40, 50]
+Original source array: [10, 20, 30, 40, 50]
+Source array after populating queue: []
+Queue after populating from source: [10, 20, 30, 40, 50]
+Queue after transferring to target array: []
+Target array after receiving queue contents: [10, 20, 30, 40, 50]
+
+Testing queue operations:
+The queue is empty:  True
+The length should be 0: 0
+Is empty should now be false:  False
+The length should now be 1:  1
+The value added and peeked is:
+60
+remove the value:  60
+Empty again:  True
+
+
+Test 2:
+# source = [10]
+Original source array: [10]
+Source array after populating queue: []
+Queue after populating from source: [10]
+Queue after transferring to target array: []
+Target array after receiving queue contents: [10]
+
+Testing queue operations:
+The queue is empty:  True
+The length should be 0: 0
+Is empty should now be false:  False
+The length should now be 1:  1
+The value added and peeked is:
+10
+remove the value:  10
+Empty again:  True
+
+Test 3:
+# source = [1,2,3]
+Original source array: [1, 2, 3]
+Source array after populating queue: []
+Queue after populating from source: [1, 2, 3]
+Queue after transferring to target array: []
+Target array after receiving queue contents: [1, 2, 3]
+
+Testing queue operations:
+The queue is empty:  True
+The length should be 0: 0
+Is empty should now be false:  False
+The length should now be 1:  1
+The value added and peeked is:
+1
+remove the value:  1
+Empty again:  True
+
+
+-------------------------------------------------------
+
+-------------------------------------------------------
+t04 
+
+Test 1:
+The highest priority value is: 1
+The highest priority value is: Apple
+
+
+Test 2:
+The highest priority value is: 5
+The highest priority value is: Apple
+
+Test 3:
+The highest priority value is: -1
+The highest priority value is: AAAA
+
+
+-------------------------------------------------------
+
+-------------------------------------------------------
+t05
+
+Test 1:
+Removed: 10
+Removed: 20
+Removed: 30
+
+Removed: Apple
+Removed: Banana
+Removed: Mango
+
+Test 2:
+Removed: 10
+Removed: 11
+Removed: 20
+Removed: 22
+Removed: 30
+
+Removed: Apple
+Removed: Banana
+Removed: Burger
+Removed: Mango
+
+Test 3:
+Removed: 30
+
+Removed: Mango
+
+
+
+-------------------------------------------------------
+
+-------------------------------------------------------
+t06:
+
+Test 1:
+Moving items from list to priority queue:
+All items moved to priority queue. List is now empty: True
+
+Moving items from priority queue back to list:
+All items moved back to list. Priority queue is now empty: True
+Items in list: 43
+
+The p queue is empty:  True
+Is empty should now be false:  False
+The value added and peeked is: Name:       Lasagna
+Origin:     Italian
+Vegetarian: False
+Calories:   135
+The value added is:
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+and the value next up is:
+Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+remove the value:  Name:       Butter Chicken
+Origin:     Indian
+Vegetarian: False
+Calories:   490
+
+-------------------------------------------------------
